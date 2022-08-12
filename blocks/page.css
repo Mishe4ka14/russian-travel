@@ -1,9 +1,0 @@
-.page {
-  max-width: 1480px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Inter', 'Arial', sans-serif;
-  padding: 0;
-  background-color: #2A2C2F;
-}
