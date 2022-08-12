@@ -9,3 +9,9 @@
     padding: 28px 24px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .page__section {
+    padding: 28px 16px;
+  }
+}
