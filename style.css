@@ -1,12 +1,16 @@
-
+/* body {
+  max-width: 1280px;
+} */
 
 /* * {
-  border: 1px solid red;
+  border: 0.1px solid red;
 }
 
-img {
-  border: 1px solid blue;
+ img {
+  border: 0.1px solid blue;
 } */
+
+/* npx bem-structure-generator */
 
 .header__logo {
   width: 176px;

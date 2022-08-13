@@ -1,0 +1,10 @@
+.page__item {
+  padding: 0 148px;
+  /* margin: 0 100px; */
+}
+
+@media screen and (max-width: 7680px) {
+  .page__item {
+    margin: 0;
+  }
+}
