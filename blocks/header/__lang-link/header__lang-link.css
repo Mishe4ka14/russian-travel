@@ -12,3 +12,21 @@
 .header__lang-link:nth-of-type(2) {
   text-decoration: none;
 }
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    grid-template-columns: 22px 22px;
+    width: 22px;
+    height: 20px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .header__lang-link {
+    /* padding: 16px 0; */
+    margin: 10px 0 0;
+  }
+}
