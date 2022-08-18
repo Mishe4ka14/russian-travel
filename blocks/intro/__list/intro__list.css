@@ -4,20 +4,22 @@
   font-weight: 700;
   font-size: 12px;
   line-height: 18px;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.intro__list:nth-of-type(6) {
+.intro__list:nth-of-type(5) {
   margin-bottom: 64px;
 }
 
 @media screen and (max-width: 768px) {
-  .intro__list:nth-of-type(6) {
+  .intro__list:nth-of-type(5) {
    margin-bottom: 60px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .intro__list:nth-of-type(6) {
+  .intro__list:nth-of-type(5) {
    margin-bottom: 36px;
   }
 }

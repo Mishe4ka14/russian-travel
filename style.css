@@ -18,6 +18,11 @@ div {
 
 /* npx bem-structure-generator */
 
+.intro__lists {
+  text-decoration: none;
+  padding: 0;
+}
+
 
 @media screen and (max-width: 320px) {
   .header__logo {
