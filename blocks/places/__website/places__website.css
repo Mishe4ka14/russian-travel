@@ -12,3 +12,9 @@
     padding-left: 32px;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .places__website{
+    padding: 32px 16px;
+  }
+}

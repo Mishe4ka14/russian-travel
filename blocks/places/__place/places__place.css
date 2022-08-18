@@ -5,5 +5,16 @@
   grid-template-areas:
     "places__title places__website"
     "places__image places__paragraphs"
+}
 
+@media screen and (max-width: 505px) {
+  .places__place {
+    grid-template-columns: 1, 1fr;
+    grid-template-rows:  minmax(min-content, max-content);
+    grid-template-areas:
+      "places__title"
+      "places__website"
+      "places__image"
+      "places__paragraphs"
+  }
 }
