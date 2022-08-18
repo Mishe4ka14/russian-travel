@@ -1,0 +1,9 @@
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-template-areas:
+    "places__title places__website"
+    "places__image places__paragraphs"
+
+}

@@ -1,7 +1,7 @@
-body {
-  margin: auto;
+/* body { */
+  /* margin: auto; */
   /* background-color: #2A2C2F; */
-}
+/* } */
 
 /* * {
   border: 0.1px solid red;
@@ -18,10 +18,14 @@ div {
 
 /* npx bem-structure-generator */
 
-.intro__lists {
-  text-decoration: none;
-  padding: 0;
-}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 320px) {
