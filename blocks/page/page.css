@@ -4,7 +4,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', 'Arial', sans-serif;
   padding: 0;
-  background-color: hsl(216, 6%, 17%);
+  background-color: #2A2C2F;
   /* ниже убираем горизонтальный скролл */
   overflow-x: hidden;
 

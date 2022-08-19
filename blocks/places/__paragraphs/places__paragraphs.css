@@ -13,10 +13,16 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .places__paragraphs{
+    padding: 0 0 0 20px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .places__paragraphs{
-    padding: 0 24px 0 14px;
+    padding: 0 24px 0 10px;
     font-size: 16px;
   }
 }
