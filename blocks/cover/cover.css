@@ -1,0 +1,45 @@
+.cover {
+  max-width: 1184px;
+  height: 740px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+ @media screen and (max-width: 1279px) {
+  .cover {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    height: 640px;
+    padding: 92px 0 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cover {
+    max-width: 1000px;
+    height: 620px;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    height: 480px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 100%) {
+  .cover {
+    max-width: 100%;
+    height: 480px;
+    padding: 0;
+  }
+}
