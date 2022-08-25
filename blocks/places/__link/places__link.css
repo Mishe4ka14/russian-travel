@@ -4,3 +4,9 @@
   line-height: 22px;
   color: white;
 }
+
+.places__link:hover {
+  transition-timing-function: linear;
+  transition-duration: .5s;
+  opacity: .5;
+}

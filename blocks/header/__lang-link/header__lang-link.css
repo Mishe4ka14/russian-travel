@@ -9,6 +9,12 @@
   gap: 18px;
 }
 
+.header__lang-link:hover {
+  transition-timing-function: linear;
+  transition-duration: .5s;
+  opacity: .5;
+}
+
 .header__lang-link:nth-of-type(2) {
   text-decoration: none;
 }
