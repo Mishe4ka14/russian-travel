@@ -1,7 +1,12 @@
 .page__section {
-  /* max-width: 1280px; */
   padding: 28px 48px 12px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__section:nth-last-child(1) {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -15,3 +20,4 @@
     padding: 28px 16px;
   }
 }
+
