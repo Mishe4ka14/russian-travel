@@ -3,20 +3,14 @@
   background-image: url(../../images/__background.jpg);
   background-size: cover;
   background-position: center;
-  min-width: 1184px;
+  max-width: 1184px;
   min-height: 740px;
   width: 100%;
   padding: 0;
   margin: 0;
   z-index: 1;
+  overflow: hidden;
 }
-
-/* @media screen and (max-width: 1279px) {
-  .cover {
-    padding: 0;
-  }
-} */
-
 
  @media screen and (max-width: 1024px) {
   .cover {
