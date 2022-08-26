@@ -9,14 +9,13 @@
   padding: 0;
   margin: 0;
   z-index: 1;
-  overflow: hidden;
 }
 
  @media screen and (max-width: 1024px) {
   .cover {
     background-size: cover;
     background-position: center;
-    min-width: 1024px;
+    max-width: 1024px;
     min-height: 640px;
     width: 100%;
     padding: 0;
@@ -26,7 +25,7 @@
 
 @media screen and (max-width: 1000px) {
   .cover {
-    min-width: 1000px;
+    max-width: 1000px;
     min-height: 620px;
     padding: 0;
   }
@@ -35,7 +34,7 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-width: 768px;
+    max-width: 768px;
     min-height: 480px;
     padding: 0;
   }
@@ -43,7 +42,7 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    min-width: 320px;
+    max-width: 320px;
     min-height: 200px;
     padding: 0;
   }

@@ -5,8 +5,6 @@
   font-family: 'Inter', 'Arial', sans-serif;
   padding: 0;
   background-color: #2A2C2F;
-  /* ниже убираем горизонтальный скролл */
-  overflow-x: hidden;
 
   /* ниже оптимизируем и масштабируем шрифты для разных браузеров, добавляем лигатуру */
   -moz-osx-font-smoothing: grayscale;
