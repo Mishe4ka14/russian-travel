@@ -22,7 +22,7 @@
 @media screen and (max-width: 425px) {
   .header__lang-link {
     grid-template-columns: 22px 22px;
-    width: 22px;
+    max-width: 22px;
     height: 20px;
     padding-right: 50px;
     font-size: 18px;

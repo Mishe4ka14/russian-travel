@@ -3,7 +3,15 @@
   font-size: 18px;
   line-height: 22px;
   color: white;
+  /* max-width: 100px; */
 }
+
+
+/* @media screen and (max-width: 625px) {
+  .places__link {
+    ;
+  }
+} */
 
 .places__link:hover {
   transition-timing-function: linear;
