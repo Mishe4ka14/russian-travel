@@ -1,0 +1,13 @@
+.header__lang-links {
+  display: grid;
+  grid-template-columns: 30px 30px;
+  gap: 18px;
+  margin: 14px 0 0;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-links {
+    grid-template-columns: 22px 22px;
+    height: 20px;
+  }
+}

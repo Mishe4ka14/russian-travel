@@ -2,17 +2,18 @@
   display: flex;
   justify-content: space-between;
   margin: 64px 0 0;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    margin: 64px 48px 0;
+    margin: 92px 48px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 60px 24px 0;
+    margin: 88px 24px 0;
   }
 }
 

@@ -10,7 +10,7 @@
 .footer__link:hover {
   transition-timing-function: linear;
   transition-duration: .5s;
-  opacity: .5;
+  opacity: 80%;
 }
 
 

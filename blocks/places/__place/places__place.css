@@ -9,7 +9,9 @@
 
 @media screen and (max-width: 634px) {
   .places__place {
-    grid-template-columns: 1, 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 320px;
     grid-template-rows:  minmax(min-content, max-content);
     grid-template-areas:
       "places__title"

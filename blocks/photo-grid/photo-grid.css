@@ -7,3 +7,10 @@
   grid-auto-flow: row;
 }
 
+@media screen and (max-width: 426px){
+  .photo-grid{
+    padding-bottom: 14px;
+  }
+
+
+}
