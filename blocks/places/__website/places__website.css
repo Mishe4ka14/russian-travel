@@ -12,12 +12,6 @@
     padding: 32px 16px;
   }
 }
-/*
-@media screen and (max-width: 425px) {
-  .places__website{
-    padding-left: 0;
-  }
-} */
 
 @media screen and (max-width: 320px) {
   .places__website{

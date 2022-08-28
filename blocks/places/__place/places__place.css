@@ -7,6 +7,13 @@
     "places__image places__paragraphs"
 }
 
+@media screen and (max-width: 768px) {
+  .places__place {
+    column-gap: 10px;
+  }
+}
+
+
 @media screen and (max-width: 634px) {
   .places__place {
     justify-content: center;
